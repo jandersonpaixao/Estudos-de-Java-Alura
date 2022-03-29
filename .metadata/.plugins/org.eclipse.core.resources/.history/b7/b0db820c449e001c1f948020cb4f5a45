@@ -1,0 +1,23 @@
+package xndbank;
+
+public class TesteReferencia {
+	public static void main(String[] args) {
+		Conta primeiraConta = new Conta();
+		primeiraConta.saldo = 300;
+		
+		System.out.println("O saldo da primeira conta é R$" + primeiraConta.saldo);
+		
+		Conta segundaConta = primeiraConta;
+		
+		segundaConta.saldo = 400;
+		
+		if(primeiraConta == segundaConta) {
+			System.out.println("são a mesma conta");
+		}else {
+			System.out.println("são contas diferentes");
+		}
+	}
+	
+	
+	
+}

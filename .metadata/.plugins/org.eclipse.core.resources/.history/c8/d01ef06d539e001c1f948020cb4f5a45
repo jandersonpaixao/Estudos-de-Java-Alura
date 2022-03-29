@@ -1,0 +1,16 @@
+package xndbank;
+
+public class TestaMetodo {
+	public static void main(String[] args) {
+		Conta minhaConta = new Conta();
+		minhaConta.saldo = 300;
+		System.out.println("Conta aberta com R$" + minhaConta.saldo);
+		System.out.println("=======================================");
+		System.out.println("depositar R$50");
+		minhaConta.deposita(50.0);
+		System.out.println("Deposito efetuado de R$50");
+		System.out.println("=======================================");
+		System.out.println("Saldo atual da conta: R$" + minhaConta.saldo);
+		
+	}
+}
