@@ -3,4 +3,6 @@
     <fullyQualifiedTypeName name="Cliente"/>
     <fullyQualifiedTypeName name="java.nio.charset.IllegalCharsetNameException"/>
     <fullyQualifiedTypeName name="Conta"/>
+    <fullyQualifiedTypeName name="FuncionarioCopia"/>
+    <fullyQualifiedTypeName name="FuncionarioBase"/>
 </qualifiedTypeNameHistroy>
